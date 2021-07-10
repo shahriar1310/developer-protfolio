@@ -1,0 +1,87 @@
+body{
+    font-family: 'Encode Sans SC', sans-serif;
+}
+.header-section{
+    display: flex;
+}
+.header-left{
+    width: 60%;
+    padding-left: 3%;
+    text-align: justif;
+}
+.header-left h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.header-left h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+.header-left p{
+    font-size: 22px;
+    color: black;
+    text-align: justify;
+}
+.button-link{
+    font-size: 20px;
+    text-decoration: none;
+    background: #c3c337;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+}
+.header-image{
+    width: 40%;
+}
+.header-image img{
+    width: 80%;
+}
+/*body */
+.section-body{
+    display: flex;
+    padding-top: 5%;
+}
+.body-image img{
+    width: 80%;
+}
+.body-text {
+    padding-left:0 !important;
+}
+.dual{
+    display: flex;
+}
+.left-fotter{
+        width: 40%;
+        box-shadow: 1px;
+        box-shadow: 5px 10px 30px #655858;
+        margin: 3%;
+        padding: 50px;
+        border-radius: 10px;
+        text-align: justify;
+}
+.left-fotter h1{    
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.left-fotter h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffa500;
+}
+.left-fotter p{
+    font-size: 18px;
+    color: #484747;
+    line-height: 1.5;
+
+}
+.fotter-before h1{ 
+    font-size: 40px;
+    padding-top: 30px;
+}
+.fotter-before{
+    background-image: url(./image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
